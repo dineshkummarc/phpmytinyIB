@@ -106,9 +106,9 @@ define('TINYIB_DBPOSTS', TINYIB_BOARD . '_posts'); // Posts table name
 //   The following only apply when TINYIB_DBMODE is set to mysql, mysqli or pdo with default (blank) TINYIB_DBDSN
 define('TINYIB_DBHOST', 'localhost'); // Hostname
 define('TINYIB_DBPORT', 3306);        // Port  (set to 0 if you are using a UNIX socket as the host)
-define('TINYIB_DBUSERNAME', 'root');      // Username
+define('TINYIB_DBUSERNAME', '');      // Username
 define('TINYIB_DBPASSWORD', '');      // Password
-define('TINYIB_DBNAME', 'tinyimageboard');          // Database
+define('TINYIB_DBNAME', '');          // Database
 
 // Database configuration - SQLite / SQLite3
 //   The following only apply when TINYIB_DBMODE is set to sqlite or sqlite3
